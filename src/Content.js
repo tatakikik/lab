@@ -1,8 +1,8 @@
-import React, {Componen} from 'react';
+import React, {Component} from 'react';
 import App from './App.css';
 
 
-export default class Content extends Componen{
+export default class Content extends Component{
     constructor(){
         super()
         this.state={
@@ -19,11 +19,11 @@ export default class Content extends Componen{
     render(){
         return(
             <div>
-                name: {name}
+                name: {this.name}
                 <button onClick={this.addNum}>count: {this.state.count}</button>
             
             </div>
         );
     }
 }
-export default App;
+
