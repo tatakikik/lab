@@ -9,6 +9,8 @@
 
 .App-header {
   background-color: #222;
+  display: flex;
+  align-items: center;
   height: 150px;
   padding: 20px;
   color: white;
@@ -30,6 +32,7 @@
   display: inline-block;
   text-align: center;
   width: 3em;
+  height: 2em;
   font-size: 2em;
   font-family: monospace;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
